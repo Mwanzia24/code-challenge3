@@ -1,0 +1,44 @@
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+        background-color:peru;
+  }
+h1{
+    align-content: center;
+    color:crimson;
+    text-align:center;
+
+}
+h3{
+  align-items: center;
+  align-content:center;
+  margin-top: 10px;
+  margin-right:1000px;
+}
+#main{
+    position:relative;
+    top:0;
+    right:0;
+    width:70%;
+    padding:20px;
+    
+}
+#returnButton{
+font-weight: bold;
+color:rgb(106, 106, 194);
+}
+#NextButton{font-weight: bolder;
+    color:darkslateblue;}
+#TicketButton{font-weight: bold;
+color: gray;}
+h4{
+  text-decoration: underline;
+  font-weight: bold;
+  font-size:30px;
+}
+#movieContainer {
+  list-style:decimal;
+  margin: 0;
+  padding: 0;
+  float: left;
+  width: 30%;
+}
