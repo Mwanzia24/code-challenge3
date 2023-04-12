@@ -1,4 +1,4 @@
-('http://localhost:3000/films')
+fetch('http://localhost:3000/films')
 .then(response => response.json())
 .then(data => {
   const movieContainer = document.getElementById('movieContainer');
@@ -66,12 +66,6 @@ const returnButton = document.getElementById('returnButton');
 returnButton.addEventListener('click', () => {
 location.reload();
 });
-const nextButton = document.getElementById("nextButton");
-
-nextButton.addEventListener("click", function() {
-  // move to the next page
-});
-
 
 const APIURL = 'http://localhost:3000/films';
 const main = document.getElementById("main");
